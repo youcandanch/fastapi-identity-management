@@ -1,0 +1,15 @@
+alembic
+black
+cuid
+databases[aiosqlite]
+fastapi
+invoke
+isort
+mypy
+passlib[bcrypt]
+pylint
+python-dotenv
+python-jose[cryptography]
+python-multipart
+sqlmodel
+uvicorn

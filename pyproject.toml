@@ -1,0 +1,12 @@
+[tool.isort]
+profile = "black"
+
+[tool.pylint.messages_control]
+max-line-length = 88
+disable = [
+    "fixme",
+    "missing-docstring",
+    "missing-function-docstring",
+    "too-few-public-methods",
+]
+extension-pkg-whitelist = "pydantic"
